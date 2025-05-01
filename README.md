@@ -4,7 +4,7 @@ This is a simple web-based **Live Character Counter** application built using HT
 
 ## 🔗 Live Demo
 
-[Click here to view the live project](https://msdhinesh45.github.io/live-character-counter/)  
+[Click here to view the live project](https://msdhinesh45.github.io/live-character-count/)  
 
 ## 📸 Output Screens
 
