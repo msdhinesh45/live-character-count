@@ -1,55 +1,55 @@
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body {
+body{
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(136, 125, 125);
+    background-color:rgb(136, 125, 125);
     font-family: serif;
-    padding: 20px;
+
 }
 
-.container {
+.container{
     border-radius: 0 140px 0 120px;
-    width: 100%;
-    max-width: 500px;
-    padding: 40px 20px;
+    width: 500px;
+    padding: 40px;
     background-color: beige;
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 5px 5px rgb(101, 91, 110);
-    color: darkgoldenrod;
-    transition: 5s, height, width ease-in-out;
+    color:darkgoldenrod;
+    transition: 5s ,height,width ease-in-out;
 }
 
-h2 {
+h2{
     text-align: center;
     font-size: 2rem;
     margin-bottom: 30px;
     text-shadow: 2px 12px 18px gold;
 }
 
-p {
+p{
     text-align: center;
     font-size: 1.1rem;
     margin-top: 20px;
     text-shadow: 2px 1px 18px green;
 }
 
-span {
+span{
     color: green;
     font-weight: 900;
     font-size: 23px;
     margin-left: 3px;
-    transition: 8s, height, background ease-in-out;
+    transition: 8s ,height,background ease-in-out;
 }
 
-textarea {
+textarea{
+    position: relative;
     resize: none;
     height: 200px;
     width: 100%;
@@ -60,59 +60,8 @@ textarea {
     font-size: 1rem;
 }
 
-textarea::placeholder {
+textarea::placeholder{
     color: blue;
     font-size: 1.2rem;
     text-shadow: 2px 5px 10px rgb(204, 67, 67);
-}
-
-/* === Responsive Styles === */
-@media (max-width: 768px) {
-    .container {
-        border-radius: 30px;
-        padding: 30px 15px;
-    }
-
-    h2 {
-        font-size: 1.7rem;
-    }
-
-    p {
-        font-size: 1rem;
-    }
-
-    span {
-        font-size: 20px;
-    }
-
-    textarea {
-        height: 180px;
-        font-size: 0.95rem;
-    }
-
-    textarea::placeholder {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .container {
-        padding: 25px 10px;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    p {
-        font-size: 0.95rem;
-    }
-
-    span {
-        font-size: 18px;
-    }
-
-    textarea {
-        height: 160px;
-    }
 }
